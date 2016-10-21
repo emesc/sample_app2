@@ -347,16 +347,16 @@ DEPENDENCIES
   bootstrap-sass (= 3.3.6)
   bootstrap-will_paginate (= 0.0.10)
   byebug (= 9.0.0)
-  carrierwave (= 0.11.2)
+  carrierwave (~> 0.11.2)
   coffee-rails (= 4.2.1)
   faker (= 1.6.6)
-  fog (= 1.38.0)
+  fog (~> 1.38)
   guard (= 2.13.0)
   guard-minitest (= 2.4.4)
   jbuilder (= 2.4.1)
   jquery-rails (= 4.1.1)
   listen (= 3.0.8)
-  mini_magick (= 4.5.1)
+  mini_magick (~> 4.5, >= 4.5.1)
   minitest-reporters (= 1.1.9)
   nokogiri (~> 1.6, >= 1.6.8.1)
   pg (= 0.18.4)
@@ -372,4 +372,4 @@ DEPENDENCIES
   will_paginate (= 3.1.0)
 
 BUNDLED WITH
-   1.13.3
+   1.13.4
